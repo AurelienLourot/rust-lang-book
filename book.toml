@@ -6,3 +6,7 @@ authors = ["Steve Klabnik", "Carol Nichols", "Contributions from the Rust Commun
 additional-css = ["ferris.css", "theme/2018-edition.css"]
 additional-js = ["ferris.js"]
 git-repository-url = "https://github.com/rust-lang/book"
+
+# See https://github.com/HollowMan6/mdbook-pdf
+# docker run --rm -v $(pwd):/book hollowman6/mdbook-pdf
+[output.pdf]
